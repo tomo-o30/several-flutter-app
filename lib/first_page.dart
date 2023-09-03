@@ -19,6 +19,7 @@ class FirstPage extends StatelessWidget {
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: [
+                Image.asset('../images/unnamed.png'),
                 TextField(onChanged: (text) => {nameText = text}),
                 ElevatedButton(
                   onPressed: () {
